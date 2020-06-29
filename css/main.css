@@ -111,7 +111,7 @@ p {
   color: #ffffff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding: 15px;
 }
@@ -142,28 +142,27 @@ p {
 /* Showcase */
 #showcase {
   background: url(../img/hotel-lamps-bed-bedroom-26139.jpg) no-repeat center center/cover;
-  height: calc(100vh - 62.2px);
+  height: 550px
 }
 
 #showcase .showcase-content {
   color: #ffffff;
   text-align: center;
-  margin-top: 170px;
-  background-color: #6d4b664d;
-  padding: 30px;
+  padding: 170px 20px;
   width: 100%;
+
 }
 
 #showcase .showcase-content h1 {
-  font-size: 4em;
-  line-height: 1.2em;
+  font-size: 3rem;
+  line-height: 1.2rem;
 }
 
 #showcase .showcase-content p {
   padding-bottom: 20px;
-  line-height: 1.2em;
-  font-size: 1.2em;
-  color: #e3e1e6;
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+  color: #291f35;
 
 }
 
@@ -228,7 +227,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 600px;
+  height: 100%;
   padding-top: 100px;
   background: url(../img/sky-sunset-beach-vacation-60217.jpg) no-repeat center center/cover;
 }
